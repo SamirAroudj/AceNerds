@@ -20,7 +20,7 @@ the package and build environment manager [MSYS2](https://www.msys2.org/) workin
   * [MSYS2](https://www.msys2.org/) comes with multiple [environments](https://www.msys2.org/docs/environments/) / executables.
   * Make sure you start the “MSYS2 CLANG64” executable (`<MSYS2 install dir>/clang64.exe`) to work with the environment for the [clang compiler](https://clang.llvm.org/);\
   you should see a [MSYS2](https://www.msys2.org/) window with `username@machine CLANG64 ~` as initial text:\
-  ![user@machine MSYS2 Clang64~](MSYS2Clang64.png).
+  ![user@machine MSYS2 Clang64~](MSYS2Clang64.png)
   * [Pacman](https://www.msys2.org/docs/package-management/) is the package manager within [MSYS2](https://www.msys2.org/) which facilitates getting the headers and binaries you will need.
   * [Installing a package](https://www.msys2.org/docs/package-management/) in [MSYS2](https://www.msys2.org/docs/package-management/) is done using a command like:
 
@@ -210,9 +210,11 @@ The important parts are:
 * a compiler path (`"compilerPath": <path to clang64>`) pointing to [clang](https://clang.llvm.org/) and
 * an [Intellisense](https://code.visualstudio.com/docs/editing/intellisense) mode like above set to [clang](https://clang.llvm.org/) 
   (`"intelliSenseMode": "windows-clang-x64"`).
-* You can of course also change the C/C++ standard (`"cStandard"`/`"cppStandard"`),
-* add additional include directories (`"includePath"`)
-* or add preprocessor defines (`"defines"`) for [Vulkan](https://docs.vulkan.org/tutorial/latest/00_Introduction.html), etc:
+
+You can of course also
+* change the C/C++ standard (`"cStandard"`/`"cppStandard"`),
+* add additional include directories (`"includePath"`) or
+* add preprocessor defines (`"defines"`) for [Vulkan](https://docs.vulkan.org/tutorial/latest/00_Introduction.html), etc. like here:
 
     ```json
     {
@@ -265,8 +267,8 @@ you need to define tasks to be run which in turn kick off your toolchain.
 
 * The [VSCode](https://code.visualstudio.com/)-specific file called
 [tasks.json](https://code.visualstudio.com/docs/debugtest/tasks) defines what toolchain to run and where.
-  * Here is an example with separate debug and release folders and binaries for
-    [CMake](https://cmake.org/) and [clang](https://clang.llvm.org/):
+  * Here is an example with separate debug and release folders and use of the
+    [CMake](https://cmake.org/) and [clang](https://clang.llvm.org/) tools/commands:
 
     ```json
     {
@@ -396,3 +398,5 @@ using the `preLaunchTask` entries that point to compile jobs from the above `tas
 Now you should be able to trigger building and running your executables
 using the [LLVM](https://llvm.org/) toolchain by means of a simple keyboard shortcut
 (`F5` for running and building or only building using `Ctrl+Shift+B`).
+
+Have fun writing your code! :)
