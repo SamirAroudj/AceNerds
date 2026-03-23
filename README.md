@@ -7,7 +7,7 @@ If you are interested in more context about the context units, have a look at ou
 
 ### Software
 
-1) Setup steps for [C++ code development under Windows](Software\01VSCodeMSYS2ClangWindows\README.md) with VSCode, Clang & MSYS2.
+1) Setup steps for [C++ code development under Windows](https://github.com/SamirAroudj/AceNerds/blob/main/Software/01VSCodeMSYS2ClangWindows/README.md) with VSCode, Clang & MSYS2.
 
 ### Business
 
