@@ -19,7 +19,7 @@ the package and build environment manager [MSYS2](https://www.msys2.org/) workin
 * [Download](https://www.msys2.org/) & install the [MSYS2](https://www.msys2.org/) command line tool for Windows.
   * [MSYS2](https://www.msys2.org/) comes with multiple [environments](https://www.msys2.org/docs/environments/) / executables.
   * Make sure you start the “MSYS2 CLANG64” executable (`<MSYS2 install dir>/clang64.exe`) to work with the environment for the [clang compiler](https://clang.llvm.org/);\
-  you should see a [MSYS2](https://www.msys2.org/) window with `username@machine CLANG64 ~` as initial text:
+  you should see a [MSYS2](https://www.msys2.org/) window with `username@machine CLANG64 ~` as initial text:\
   ![user@machine MSYS2 Clang64~](MSYS2Clang64.png).
   * [Pacman](https://www.msys2.org/docs/package-management/) is the package manager within [MSYS2](https://www.msys2.org/) which facilitates getting the headers and binaries you will need.
   * [Installing a package](https://www.msys2.org/docs/package-management/) in [MSYS2](https://www.msys2.org/docs/package-management/) is done using a command like:
