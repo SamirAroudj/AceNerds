@@ -115,7 +115,7 @@ the package and build environment manager [MSYS2](https://www.msys2.org/) workin
     you might be interested in directly installing the [VulkanSDK](https://vulkan.lunarg.com/sdk/home).
   * This [SDK](https://en.wikipedia.org/wiki/Software_development_kit) is not part of
     the [Pacman](https://www.msys2.org/docs/package-management/) package management.
-    It is instead directly managed by the company [LunarG](https://vulkan.lunarg.com/) and 
+    It is instead directly managed by the company [LunarG](https://vulkan.lunarg.com/) and
     installed using a pckage provided on their [official website](https://vulkan.lunarg.com/sdk/home).
   * I usually put such [SDKs](https://en.wikipedia.org/wiki/Software_development_kit) and related tools
     simply under `C:\\Tools`.
@@ -151,6 +151,23 @@ the package and build environment manager [MSYS2](https://www.msys2.org/) workin
     to get all the files necessary to command [Ninja](https://packages.msys2.org/packages/mingw-w64-clang-x86_64-ninja)
     which in turn will build and link your code using the compiler chain you set up
     ([LLVM](https://llvm.org/)/[clang](https://clang.llvm.org/)in this case).
+
+* [optional] You might want to directly install
+  a [git](https://git-scm.com/tools) client
+  into your [MSYS2](https://www.msys2.org/) environment:
+  * Simply run this command in your environment
+    to install [git](https://git-scm.com/tools):
+
+      ```bash
+      pacman -S git
+      ```
+
+  * A [git](https://git-scm.com/tools) client is required
+    if you use [CMake](https://cmake.org/) to automatically fetch dependencies
+    by means of [CMake](https://cmake.org/)'s module for "fetching content".
+  * See the
+    [related article](https://github.com/SamirAroudj/AceNerds/blob/main/Software/02DependencyManagement/README.md)
+    about dependency management for details.
 
 ## Setting up Visual Studio Code
 
@@ -208,7 +225,7 @@ set up Microsoft’s [Intellisense](https://code.visualstudio.com/docs/editing/i
 The important parts are:
 
 * a compiler path (`"compilerPath": <path to clang64>`) pointing to [clang](https://clang.llvm.org/) and
-* an [Intellisense](https://code.visualstudio.com/docs/editing/intellisense) mode like above set to [clang](https://clang.llvm.org/) 
+* an [Intellisense](https://code.visualstudio.com/docs/editing/intellisense) mode like above set to [clang](https://clang.llvm.org/)
   (`"intelliSenseMode": "windows-clang-x64"`).
 
 You can of course also
@@ -314,7 +331,7 @@ you need to define tasks to be run which in turn kick off your toolchain.
                 ],
                 "group": {
                     "kind": "build",
-                    "isDefault": false 
+                    "isDefault": false
                 },
                 "problemMatcher": []
             },
