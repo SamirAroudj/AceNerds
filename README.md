@@ -12,6 +12,9 @@ If you are interested in more context about the context units, have a look at ou
   with VSCode, Clang & MSYS2.
 2) Managing dependencies of C/C++ and CMake projects using
   ["automatic fetching"](https://github.com/SamirAroudj/AceNerds/blob/main/Software/02DependencyManagement/README.md).
+3) If your 3D assets or transforms look off,
+   have a look at why 3D assets and software tend to be plagued by
+   [conventional chaos](https://github.com/SamirAroudj/AceNerds/tree/main/Software/03TheMessOf3DBases#blender-and-lbu).
 
 ### Business
 
