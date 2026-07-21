@@ -40,15 +40,15 @@ all assets of the same type are placed in model space with matching directions.
 If you have a fixed viewing angle for your objects,
 consistent orientation might mean something as follows.
 Characters might stand upright and face the camera:\
-![AceNerds Robot Mascot Orientation Example](MascotR53.png)\
+<img src="MascotR53.png" alt="AceNerds Robot Mascot Orientation Example" width="300">\
 Similarly, boots might be oriented like the characters feet,
 stand upright and point towards the camera:\
-![Stylized Boot Orientation Example](StylizedBoot.png)\
+<img src="StylizedBoot.png" alt="Stylized Boot Orientation Example" width="300">\
 Depending on what is useful for your team,
 weapons like swords, might also be upright with
 the pointy end of the sword going up
 and the cross guard and the blade going from left to right:\
-![Sword Orientation Example](Sword.png)\
+<img src="Sword.png" alt="Sword Orientation Example" width="300">\
 
 The exact orientation convention of a 3D asset type does not matter
 as much as enforcing it consistently.
@@ -100,7 +100,7 @@ In short, this is a right-handed left-back-up (LBU) 3D basis
 for the example 3D assets above.
 This also seems to be the default of [Blender](https://www.blender.org/),
 as demonstrated when adding the monkey head "Suzanne" without any custom rotation:
-![Blender's default is LBU according to the monkey head](Suzanne.png)
+<img src="Suzanne.png" alt="Blender's default is LBU according to the monkey head" width="300">
 
 ### Convention Choice Chaos
 The big source of confusion is now that
