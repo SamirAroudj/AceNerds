@@ -61,8 +61,8 @@ there is another big source of confusion and chaos,
 even if your 3D asset database is made consistent as explained above.
 Even if all characters look forward while standing upright,
 they might still be oriented in the wrong way depending
-on what library, tool or engine you use.
-This is due to the fact that they are built on 3D Euclidean spaces
+on what set of tools you use.
+This is due to the fact that code for handling 3D space is often built on abstract 3D Euclidean space
 consisting of x, y and z basis vectors without inherent meaning.
 
 ## A Sole 3D Basis is Abstract and Meaningless
@@ -120,8 +120,8 @@ are not inherently better or worse than another mapping
 many different conventions are in use.
 
 Here is an overview with (only) 9 example conventions
-which are in use by various software:
-<img src="Common3DBasisConventions.jpg" alt="9 common 3D Basis Conventions" width="800">
+which are in use by various well-known software:
+<img src="Common3DBasisConventions.jpg" alt="9 common 3D Basis Conventions" width="800">\
 The abbreviations have the following meaning:
 * RH = right-handed
 * LH = left-handed
