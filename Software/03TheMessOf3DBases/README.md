@@ -210,37 +210,37 @@ There are also a few special cases in the table:
 | Software  | Convention | Handedness | Sources |
 |---|---|---|---|
 | 3dsMax (scenes) | RFU | RH |[[2]](https://help.autodesk.com/view/GWNAV/ENU/?guid=__nav_help_overview_coordinate_systems_html) |
-| 3dsMax (cameras) | RUB | RH |[[3]](https://help.autodesk.com/view/3DSMAX/2024/ENU/?guid=GUID-0F3E2822-9296-42E5-A572-B600884B07E3) |
+| 3dsMax (camera) | RUB | RH |[[3]](https://help.autodesk.com/view/3DSMAX/2024/ENU/?guid=GUID-0F3E2822-9296-42E5-A572-B600884B07E3) |
 | Ace | LUF | RH |[[1]]() |
 | Anno | ??? | ?? | [[4]](https://www.anno-union.com/devblog-the-anno-engine/) |
 | Anvil| ??? | ?? | [[5]](https://en.wikipedia.org/wiki/Ubisoft_Anvil) |
 | ARKit | RUB | RH | [[6]](https://developer.apple.com/documentation/arkit/understanding-world-tracking) |
 | Blender (scenes) | LBU | RH | [[7]](https://docs.blender.org/manual/en/2.91/editors/3dview/navigate/viewpoint.html), [[8]](https://en.wikibooks.org/wiki/Blender_3D:_Noob_to_Pro/Understanding_Coordinates), [[9]](https://github.com/SamirAroudj/AceNerds/tree/main/Software/03TheMessOf3DBases#blender-and-lbu)|
-| Blender (cameras) | RUB | RH |[[10]](https://devtalk.blender.org/t/paper-cut-the-cameras-default-rotation-is-facing-down/13677/3)|
-| Colmap (cameras) | RDF | RH | [[11]](https://colmap.github.io/format.html#images-txt) |
+| Blender (camera) | RUB | RH |[[10]](https://devtalk.blender.org/t/paper-cut-the-cameras-default-rotation-is-facing-down/13677/3)|
+| Colmap (camera) | RDF | RH | [[11]](https://colmap.github.io/format.html#images-txt) |
 | CryEngine | RFU | RH | [[12]](https://www.cryengine.com/docs/static/engines/cryengine-5/categories/23756813/pages/26871453#coordinate-system) |
 | Frostbite | ??? | ?? | [[13]](https://en.wikipedia.org/wiki/Frostbite_(game_engine)) |
 | GLTF (scenes) | LUF | RH | [[14]](https://registry.khronos.org/glTF/specs/2.0/glTF-2.0.html#coordinate-system-and-units) |
-| GLTF (cameras) | RUB | RH | [[15]](https://github.khronos.org/glTF-Tutorials/gltfTutorial/gltfTutorial_016_Cameras.html) |
+| GLTF (camera) | RUB | RH | [[15]](https://github.khronos.org/glTF-Tutorials/gltfTutorial/gltfTutorial_016_Cameras.html) |
 | Godot (objects) | LUF | RH | [[41]](https://docs.godotengine.org/en/stable/tutorials/assets_pipeline/importing_3d_scenes/model_export_considerations.html#d-asset-direction-conventions)|
 | Godot (world) | EUS | RH | [[41]](https://docs.godotengine.org/en/stable/tutorials/assets_pipeline/importing_3d_scenes/model_export_considerations.html#d-asset-direction-conventions)|
-| Godot (cameras) | RUB | RH | [[16]](https://docs.godotengine.org/en/latest/tutorials/3d/using_transforms.html#introducing-transforms), [[40]](https://docs.godotengine.org/en/stable/classes/class_basis.html) |
-| Houdini scenes | LUF | RH | [[18]](https://www.sidefx.com/docs/houdini/unreal/coordinates.html) |
-| Houdini cameras | RUB | RH | [[19]](https://www.sidefx.com/forum/topic/69440/#post-302153) |
+| Godot (camera) | RUB | RH | [[16]](https://docs.godotengine.org/en/latest/tutorials/3d/using_transforms.html#introducing-transforms), [[40]](https://docs.godotengine.org/en/stable/classes/class_basis.html) |
+| Houdini (scenes) | LUF | RH | [[18]](https://www.sidefx.com/docs/houdini/unreal/coordinates.html) |
+| Houdini (camera) | RUB | RH | [[19]](https://www.sidefx.com/forum/topic/69440/#post-302153) |
 | Maya | LUF | RH | [[20]](https://help.autodesk.com/view/MAYAUL/2024/ENU/?guid=GUID-DAB331B4-7623-4810-9740-DB526F85333F) |
-| MeshLab | ??? | ?? |  |
-| Minecraft local | LUF | RH | [[39]](https://minecraft.fandom.com/wiki/Coordinates) |
-| Minecraft world | EUS | RH | [[39]](https://minecraft.fandom.com/wiki/Coordinates) |
+| MeshLab | ?U? | RH |  |
+| Minecraft (local) | LUF | RH | [[39]](https://minecraft.fandom.com/wiki/Coordinates) |
+| Minecraft (world) | EUS | RH | [[39]](https://minecraft.fandom.com/wiki/Coordinates) |
 | Ogre3D | RUB | RH | [[21]](https://ogrecave.github.io/ogre/api/14/tut__first_scene.html), [[22]](https://wiki.ogre3d.org/Simple+3rd+person+camera) |
-| OpenCV cameras | RDF | RH | [[23]](https://docs.opencv.org/4.13.0/d9/d0c/group__calib3d.html) |
+| OpenCV (camera) | RDF | RH | [[23]](https://docs.opencv.org/4.13.0/d9/d0c/group__calib3d.html) |
 | Quake III Arena | FLU | RH | [[24]](https://github.com/id-Software/Quake-III-Arena/blob/master/code/bspc/l_math.c) |
 | Rerun | RDF | RH | [[25]](https://rerun.io/docs/reference/types/archetypes/view_coordinates), [[26]](https://ref.rerun.io/docs/python/0.8.0/common/transforms/#rerun.log_pinhole) |
 | ROS | FLU | RH | [[27]](https://wiki.ros.org/tf/Overview/Transformations) |
 | Snowdrop | ??? | ?? | [[28]](https://en.wikipedia.org/wiki/Snowdrop_(game_engine)) |
 | Source Engine (local) | FLU | RH | [[29]](https://developer.valvesoftware.com/wiki/Coordinates) |
 | Source Engine (world) | ENU | RH | [[29]](https://developer.valvesoftware.com/wiki/Coordinates) |
-| ThreeJS scenes (from GLTF) | LUF | RH | [[30]](https://registry.khronos.org/glTF/specs/2.0/glTF-2.0.html#coordinate-system-and-units) |
-| ThreeJS cameras | RUB | RH | [[31]](https://threejs.org/manual/#en/fundamentals) |
+| ThreeJS (scenes from GLTF) | LUF | RH | [[30]](https://registry.khronos.org/glTF/specs/2.0/glTF-2.0.html#coordinate-system-and-units) |
+| ThreeJS (camera) | RUB | RH | [[31]](https://threejs.org/manual/#en/fundamentals) |
 | UEFN | LUF | RH | [[32]](https://dev.epicgames.com/documentation/en-us/fortnite/leftupforward-coordinate-system-in-unreal-editor-for-fortnite) |
 | Unity | RUF | LH | [[33]](https://docs.unity3d.com/Simulation/manual/author/working-with-coordinate-spaces.html), [[34]](https://discussions.unity.com/t/how-to-get-the-look-or-forward-vector-of-the-camera/14658) |
 | Unreal Engine 5 | FRU | LH | [[35]](https://dev.epicgames.com/documentation/en-us/unreal-engine/coordinate-system-and-spaces-in-unreal-engine) |
