@@ -8,7 +8,7 @@ If you are interested in more context about the context units, have a look at ou
 ### Advanced Content Engines (ACEs)
 
 1) If you want to know how to make best use of our [ACEs](https://www.acenerds.com/learning),
-  first know what to expect and the conventions the ACEs are based on.
+  first know what to expect and the [conventions the ACEs are based on](https://github.com/SamirAroudj/AceNerds/blob/main/ACEs/01Conventions/README.md).
 
 ### Software
 
