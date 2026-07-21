@@ -76,19 +76,20 @@ the typical x-, y- and z-axis system:
 * +z = (0, 0, 1), -z = (0, 0, -1)
 
 There is fortunately a plethora of informational material
-explaining how then geometry, transformations, etc. can be defined in such a space.
+explaining how geometry, transformations, etc. can be defined in such a space.
 However, people rarely take the time to clearly define and document what
 +x, +y or +z mean in their practical application.
 
 ### Blender and LBU
 The screenshots of the 3D assets shown above
 are all from [Blender](https://www.blender.org/).
-The coordinate system is visible in the upper right corner.
-The circles with the x (red), y (green) and z (blue) character
+The coordinate system basis vectors are visible in the upper right corner.
+The circles with the x (red), y (green) and z (blue) indicate the underlying 3D basis vectors.
+The ones with the x, y, and z character
 indicate the positive direction of each coordinate axis (+x, +y and +z).
 In each asset example above,
-+x goes points the left side of the asset,
-+y goes point to the back asset back side and
++x points to the left side of the asset,
++y points to the back asset back side and
 +z goes up.
 This means the assets follow the mapping:
 
@@ -99,7 +100,7 @@ This means the assets follow the mapping:
 In short, this is a right-handed left-back-up (LBU) 3D basis
 for the example 3D assets above.
 This also seems to be the default of [Blender](https://www.blender.org/),
-as demonstrated when adding the monkey head "Suzanne" without any custom rotation:
+as demonstrated when adding the monkey head "Suzanne" without any custom rotation:\
 <img src="Suzanne.png" alt="Blender's default is LBU according to the monkey head" width="300">
 
 ### Convention Choice Chaos
@@ -114,10 +115,10 @@ in contrast follow the left-up-forward (LUF) convention:
 * up (U) -> +y = (0, 1, 0)
 * forward (F) -> +z = (0, 0, 1)
 
-Since these mapping are just conventions which
-are not inherently better or worse than another mapping
-(as long as the basis consists of orthogonal unit-length vectors),
-many different conventions are in use.
+Many different conventions are in use
+since these mapping are just conventions.
+No convention is inherently better or worse than any other convention
+(as long as the basis consists of orthogonal unit-length vectors).
 
 Here is an overview with (only) 9 example conventions
 which are in use by various well-known software:
@@ -134,8 +135,7 @@ The abbreviations have the following meaning:
 
 The above naming works well for characters, small scenes or objects.
 When referring to maps or world coordinate systems,
-the 3D basis conventions are often based on cardinal directions
-instead of left, right, forward and back
+the 3D basis conventions are often based on cardinal directions and up/down:
 [[29]](https://developer.valvesoftware.com/wiki/Coordinates),
 [[39]](https://minecraft.fandom.com/wiki/Coordinates):
 
@@ -163,8 +163,9 @@ there is the option to map
 * +x to left or right (-> x2),
 * +y to up or down (-> x2),
 * +z to forward or back (-> x2),
-with 6 options to order +x, +y and +z (-> x6)
-resulting in 48 unit-length orthogonal combinations of 3D basis vectors
+* with 6 options to order R/L, U/D and F/B (-> x6)
+
+resulting in 48 unit-length orthogonal combinations of vectors
 while having a directional meaning.
 Besides, 24 of them are left-handed and the other 24 are right-handed.
 
@@ -172,7 +173,7 @@ Besides, 24 of them are left-handed and the other 24 are right-handed.
 
 Finally, here is an overview listing various well-known software
 with its underlying 3D basis conventions to help you know what to expect
-and what might be going wrong if your 3D assets or transforms do not look right,
+and what might be going wrong if your 3D assets or transforms do not look right.
 
 Given the following reference basis:
 * +x = (1, 0, 0), -x = (-1, 0, 0)
@@ -195,7 +196,7 @@ the first table below shows the different commonly encountered conventions:
 | UFL | RH | (0,0,1)  | (0,0,-1) | (-1,0,0) | (1,0,0)  | (0,-1,0) | (0,1,0) |
 
 The next table shows an overview for various software
-to help you quickly see what you should expect and work with.
+to help you quickly see what you should expect and what to work with.
 Note that there might be multiple rows for the same software,
 if different conventions are used for different entities.
 For example, the 3D basis for render cameras might differ from the
@@ -244,10 +245,15 @@ There are also a few special cases in the table:
 | UEFN | LUF | RH | [[32]](https://dev.epicgames.com/documentation/en-us/fortnite/leftupforward-coordinate-system-in-unreal-editor-for-fortnite) |
 | Unity | RUF | LH | [[33]](https://docs.unity3d.com/Simulation/manual/author/working-with-coordinate-spaces.html), [[34]](https://discussions.unity.com/t/how-to-get-the-look-or-forward-vector-of-the-camera/14658) |
 | Unreal Engine 5 | FRU | LH | [[35]](https://dev.epicgames.com/documentation/en-us/unreal-engine/coordinate-system-and-spaces-in-unreal-engine) |
-| USD default | RUB | RH | [[36]](https://openusd.org/dev/user_guides/render_user_guide.html#configuring-the-stage-coordinate-system)  |
-| USD alt. | RFU | RH | [[36]](https://openusd.org/dev/user_guides/render_user_guide.html#configuring-the-stage-coordinate-system) |
-| USD cameras | RUB | RH | [[36]](https://openusd.org/dev/user_guides/render_user_guide.html#configuring-the-stage-coordinate-system) |
-| ZBrush scenes | RUF | LH | [[37]](https://www.youtube.com/watch?v=l7cjQ_lNu4k&t=49s), [[38]](https://www.youtube.com/watch?v=HgWuYEjyoGM)|
+| USD (default) | RUB | RH | [[36]](https://openusd.org/dev/user_guides/render_user_guide.html#configuring-the-stage-coordinate-system)  |
+| USD (alt.) | RFU | RH | [[36]](https://openusd.org/dev/user_guides/render_user_guide.html#configuring-the-stage-coordinate-system) |
+| USD (camera) | RUB | RH | [[36]](https://openusd.org/dev/user_guides/render_user_guide.html#configuring-the-stage-coordinate-system) |
+| ZBrush | RUF | LH | [[37]](https://www.youtube.com/watch?v=l7cjQ_lNu4k&t=49s), [[38]](https://www.youtube.com/watch?v=HgWuYEjyoGM)|
 
 Hopefully, knowing these conventions will speed up your development and save you debugging time.
-If you find a mistake or an important engine, tool or library missing, send a [message](info@acenerds.com) or create a pull request with the convention system the missing software follows!
+If you find a mistake or an important engine, tool or library missing,
+send a [message](info@acenerds.com) or
+create a pull request with the convention system the missing software follows!
+
+PS: Protect humanity and do not share this with the makers of
+[Skynet](https://en.wikipedia.org/wiki/Skynet_(Terminator))!
