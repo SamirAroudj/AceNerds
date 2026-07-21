@@ -121,7 +121,7 @@ many different conventions are in use.
 
 Here is an overview with (only) 9 example conventions
 which in use by various software:
-![9 commonly used example 3D basis conventions](Common3DBasisConventions.jpg)
+<img src="Common3DBasisConventions.jpg" alt="9 common 3D Basis Conventions" width="800">
 The abbreviations have the following meaning:
 * RH = right-handed
 * LH = left-handed
