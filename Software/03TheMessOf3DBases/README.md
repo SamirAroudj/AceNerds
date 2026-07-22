@@ -6,6 +6,9 @@ She is convinced that the common 3D convention chaos
 introduces enough bugs into AI training pipelines,
 such that this chaos will eventually save humanity from the future
 [Skynet](https://en.wikipedia.org/wiki/Skynet_(Terminator)).
+My friend is not alone with her pain.
+Even people like [Tim Sweeney](https://x.com/TimSweeneyEpic/status/1930678660098408669?lang=en)
+find this a huge nuisance.
 
 Though, you might wonder why this is such a big deal as
 pretty much everyone knows what left, right, up, down, forward and back mean.
@@ -216,8 +219,10 @@ There are also a few special cases in the table:
 | Anno | ??? | ?? | [[4]](https://www.anno-union.com/devblog-the-anno-engine/) |
 | Anvil| ??? | ?? | [[5]](https://en.wikipedia.org/wiki/Ubisoft_Anvil) |
 | ARKit | RUB | RH | [[6]](https://developer.apple.com/documentation/arkit/understanding-world-tracking) |
+| Autodesk AutoCAD | ??U | RH | [[47]](https://help.autodesk.com/view/ACD/2024/ENU/?guid=GUID-E658D5E7-EE5C-4A06-BF34-F71CDB363A71) |
 | Blender (scenes) | LBU | RH | [[7]](https://docs.blender.org/manual/en/2.91/editors/3dview/navigate/viewpoint.html), [[8]](https://en.wikibooks.org/wiki/Blender_3D:_Noob_to_Pro/Understanding_Coordinates), [[9]](https://github.com/SamirAroudj/AceNerds/tree/main/Software/03TheMessOf3DBases#blender-and-lbu)|
 | Blender (camera) | RUB | RH |[[10]](https://devtalk.blender.org/t/paper-cut-the-cameras-default-rotation-is-facing-down/13677/3)|
+| Cinema 4D | RUF | LH | [[46]](https://developers.maxon.net/docs/py/2024_4_0a/manuals/manual_matrix.html) |
 | Colmap (camera) | RDF | RH | [[11]](https://colmap.github.io/format.html#images-txt) |
 | CryEngine | RFU | RH | [[12]](https://www.cryengine.com/docs/static/engines/cryengine-5/categories/23756813/pages/26871453#coordinate-system) |
 | Frostbite | ??? | ?? | [[13]](https://en.wikipedia.org/wiki/Frostbite_(game_engine)) |
@@ -228,18 +233,22 @@ There are also a few special cases in the table:
 | Godot (camera) | RUB | RH | [[16]](https://docs.godotengine.org/en/latest/tutorials/3d/using_transforms.html#introducing-transforms), [[40]](https://docs.godotengine.org/en/stable/classes/class_basis.html) |
 | Houdini (scenes) | LUF | RH | [[18]](https://www.sidefx.com/docs/houdini/unreal/coordinates.html) |
 | Houdini (camera) | RUB | RH | [[19]](https://www.sidefx.com/forum/topic/69440/#post-302153) |
+| LightWave3D | RUF | LH | [[43]](https://docs.lightwave3d.com/2025/getting-started-with-layout.html#world-and-local-axes) |
 | Maya | LUF | RH | [[20]](https://help.autodesk.com/view/MAYAUL/2024/ENU/?guid=GUID-DAB331B4-7623-4810-9740-DB526F85333F) |
 | MeshLab | ?U? | RH | [[42]](https://www.meshlab.net/) |
 | Minecraft (local) | LUF | RH | [[39]](https://minecraft.fandom.com/wiki/Coordinates) |
 | Minecraft (world) | EUS | RH | [[39]](https://minecraft.fandom.com/wiki/Coordinates) |
+| Modo | ?U? | RH | [[45]](https://learn.foundry.com/modo/12.2/content/help/pages/tutorials/beginner_tutorial.html) |
 | Ogre3D | RUB | RH | [[21]](https://ogrecave.github.io/ogre/api/14/tut__first_scene.html), [[22]](https://wiki.ogre3d.org/Simple+3rd+person+camera) |
 | OpenCV (camera) | RDF | RH | [[23]](https://docs.opencv.org/4.13.0/d9/d0c/group__calib3d.html) |
 | Quake III Arena | FLU | RH | [[24]](https://github.com/id-Software/Quake-III-Arena/blob/master/code/bspc/l_math.c) |
 | Rerun | RDF | RH | [[25]](https://rerun.io/docs/reference/types/archetypes/view_coordinates), [[26]](https://ref.rerun.io/docs/python/0.8.0/common/transforms/#rerun.log_pinhole) |
 | ROS | FLU | RH | [[27]](https://wiki.ros.org/tf/Overview/Transformations) |
+| SketchUp | ??U | RH | [[48]](https://help.sketchup.com/en/sketchup/moving-entities-around) |
 | Snowdrop | ??? | ?? | [[28]](https://en.wikipedia.org/wiki/Snowdrop_(game_engine)) |
 | Source Engine (local) | FLU | RH | [[29]](https://developer.valvesoftware.com/wiki/Coordinates) |
 | Source Engine (world) | ENU | RH | [[29]](https://developer.valvesoftware.com/wiki/Coordinates) |
+| Substance 3D Painter | LUF | RH | [[44]](https://helpx.adobe.com/substance-3d-stager/desktop/features/coordinate-system.html) |
 | ThreeJS (scenes from GLTF) | LUF | RH | [[30]](https://registry.khronos.org/glTF/specs/2.0/glTF-2.0.html#coordinate-system-and-units) |
 | ThreeJS (camera) | RUB | RH | [[31]](https://threejs.org/manual/#en/fundamentals) |
 | UEFN | LUF | RH | [[32]](https://dev.epicgames.com/documentation/en-us/fortnite/leftupforward-coordinate-system-in-unreal-editor-for-fortnite) |
@@ -250,10 +259,18 @@ There are also a few special cases in the table:
 | USD (camera) | RUB | RH | [[36]](https://openusd.org/dev/user_guides/render_user_guide.html#configuring-the-stage-coordinate-system) |
 | ZBrush | RUF | LH | [[37]](https://www.youtube.com/watch?v=l7cjQ_lNu4k&t=49s), [[38]](https://www.youtube.com/watch?v=HgWuYEjyoGM)|
 
+**Fun fact**:\
+Left-handed coordinate systems are less common when looking at the software overview.
+Presumably, that is due to the fact that most educational material assumes right-handed systems.
+However, Unity and UE5 are the most commonly licensed game engines.
+Both engines are based on left-handed 3D bases.
+
+**If you know more**:\
 Hopefully, knowing these conventions will speed up your development and save you debugging time.
 If you find a mistake or an important engine, tool or library missing,
 send a [message](info@acenerds.com) or
 create a pull request with the convention system the missing software follows!
 
-PS: Protect humanity and do not share this with the makers of
+**PS:**\
+Protect humanity and do not share this with the makers of
 [Skynet](https://en.wikipedia.org/wiki/Skynet_(Terminator))!
