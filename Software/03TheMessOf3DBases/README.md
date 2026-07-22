@@ -215,7 +215,7 @@ There are also a few special cases in the table:
 |---|---|---|---|
 | 3dsMax (scenes) | RFU | RH |[[2]](https://help.autodesk.com/view/GWNAV/ENU/?guid=__nav_help_overview_coordinate_systems_html) |
 | 3dsMax (camera) | RUB | RH |[[3]](https://help.autodesk.com/view/3DSMAX/2024/ENU/?guid=GUID-0F3E2822-9296-42E5-A572-B600884B07E3) |
-| Ace | LUF | RH |[[1]]() |
+| Ace | LUF | RH |[[1]](https://github.com/SamirAroudj/AceNerds/blob/main/ACEs/01Conventions/README.md) |
 | Anno | ??? | ?? | [[4]](https://www.anno-union.com/devblog-the-anno-engine/) |
 | Anvil| ??? | ?? | [[5]](https://en.wikipedia.org/wiki/Ubisoft_Anvil) |
 | ARKit | RUB | RH | [[6]](https://developer.apple.com/documentation/arkit/understanding-world-tracking) |
